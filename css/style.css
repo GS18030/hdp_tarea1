@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+}
+
+.container {
+    display: grid;
+    width: 90%;
+    margin: auto;
+}
+
+.container .section {
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-row-gap: 15px;
+    min-height: 100vh;
+
+}
+
+.container .section .title-content {
+    display: grid;
+    text-align: center;
+    padding: 15px;
+}
+
+.container .section .title-content .title {
+    padding-bottom: 15px;
+}
+
+/* Cars styles*/
+.container .section .cars-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.container .section .cars-content .card-vehicle {
+    display: grid;
+    max-width: 300px;
+    grid-template-rows: 200px 100px 50px;
+    margin: auto;
+    height: 350px;
+    box-shadow: 2px 2px 5px #c0c0c0;
+}
+
+.container .section .cars-content img {
+    width: 100%;
+}
+
+.container .section .card-vehicle .info {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+.container .section .card-vehicle .info h3 {
+    color: #b1c0a2;
+}
+
+.container .section .card-vehicle .action {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
